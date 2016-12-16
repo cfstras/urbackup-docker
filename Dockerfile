@@ -1,5 +1,5 @@
 FROM debian:stable
-ENV VERSION 2.0.30
+ENV VERSION 2.0.38
 MAINTAINER Claus Strasburger <claus@strasburger.de>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y btrfs-tools apt-utils \
